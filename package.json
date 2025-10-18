@@ -1,0 +1,24 @@
+{
+  "name": "escrow-bot-coinpayments",
+  "version": "1.0.0",
+  "description": "Secure Telegram Escrow Bot with Coinpayments via Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "escrow",
+    "coinpayments",
+    "nodejs"
+  ],
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "coinpayments-apiv2": "^1.1.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "telegraf": "^4.16.1"
+  }
+}
